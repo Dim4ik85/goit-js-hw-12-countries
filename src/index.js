@@ -4,10 +4,10 @@ import countriesListTpl from './templates/country-list.hbs';
 import API from './js/api-service.js';
 import getRefs from './js/get-refs.js';
 import "@pnotify/core/dist/PNotify.css";
-import"@pnotify/core/dist/BrightTheme.css";
+import "@pnotify/core/dist/BrightTheme.css";
 
 const { error, success } = require('@pnotify/core');
-var debounce = require('lodash.debounce');
+let debounce = require('lodash.debounce');
 
 const refs = getRefs();
 
